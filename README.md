@@ -24,11 +24,11 @@ Count the length of the words using len
 Print the number of words
 
 ## PROGRAM:
-'''
+```
 Program for getting the word count from the contents of a file using command line arguments
 Developed by: HARISH G
 RegisterNumber: 23000630
-'''
+
 import sys
 fp=open(sys.argv[1],'r')
 count=0
@@ -36,6 +36,7 @@ for line in fp:
     words=line.split()
     count+=len(words)
 print("Number of words in a file",count)
+```
 
 ### OUTPUT:
 ![image](https://github.com/Harish2404lll/command-line-arguments-to-count-word/assets/141472096/77e53109-4973-4c84-a3d9-632f6f3b8b8c)
